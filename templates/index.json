@@ -93,6 +93,9 @@
         "column2",
         "column3"
       ]
+    },
+    "hero_image": {
+      "type": "hero"
     }
   },
   "order": [
@@ -101,6 +104,7 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column"
+    "multi_column",
+    "hero_image"
   ]
 }

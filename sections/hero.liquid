@@ -1,0 +1,20 @@
+<div class="hero-image section">
+    <h1>Test</h1>
+    <img src="{{section.settings.image| image_url: 'master'}}">
+</div>
+
+{% schema %}
+{
+    "name": "Hero Image",
+    "settings": [{
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+    }],
+    "presets": [
+    {
+        "name": "Hero Image",
+        "category": "Image"
+    }]
+}
+{% endschema %}
